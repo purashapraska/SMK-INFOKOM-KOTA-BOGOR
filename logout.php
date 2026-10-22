@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/config/app.php';log_activity('logout','Logout');logout_user();redirect('login.php');
